@@ -15,8 +15,9 @@ set output_min  [expr {double(round(1000*$clk_period * 0.0))/1000}]
 #=====================================================================
 
 # 500 MHz clock, duty cycle 50%
-create_clock -name clk -period $clk_period -waveform {0.0 1.0} [get_ports clk]
-
+create_clock -name clk -period $clk_period \
+    -waveform [list 0.0 [expr {$clk_period / 2.0}]] \
+    [get_ports clk]
 # clock transition = 0.05 ns
 set_clock_transition 0.05 [get_clocks clk]
 
