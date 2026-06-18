@@ -252,18 +252,21 @@ synthesize_PE:
 	$(MAKE) synthesize SYN_TOP=PE SYN_SRC="src/PE_array/PE.sv" SYN_OUT=PE
 
 synthesize_PE_ori:
-	$(MAKE) synthesize SYN_TOP=PE_origin SYN_SRC="src/PE_array/PE_origin.sv" SYN_OUT=PE_ori
+	$(MAKE) synthesize SYN_TOP=PE_ori SYN_SRC="src/PE_array/PE_origin.sv" SYN_OUT=PE_ori
 
 synthesize_PE_array:
 	$(MAKE) synthesize SYN_TOP=PE_array SYN_SRC="src/PE_array/PE.sv src/PE_array/PE_array.sv" SYN_OUT=PE_array
+
+synthesize_PE_LEE:
+	$(MAKE) synthesize SYN_TOP=PE SYN_SRC="src/PE_LEE.sv" SYN_OUT=PE_LEE
+
 spyglass: $(bld_dir)
 	@cd $(bld_dir); \
 	spyglass &
 
 pt: $(bld_dir)
 	cp script/synopsys_pt.setup $(bld_dir)/.synopsys_pt.setup; \
-	cd $(bld_dir); \
-	pt_shell $(GUI_MODE) -f ../script/pt.tcl
+	pt_shell $(GUI_MODE) -f ./script/pt.tcl
 
 wave:
 	@cd $(wv_dir); \

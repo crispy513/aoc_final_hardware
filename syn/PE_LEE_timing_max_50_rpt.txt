@@ -1,0 +1,2144 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 50
+        -max_paths 50
+        -sort_by group
+Design : PE
+Version: W-2024.09-SP2
+Date   : Sun May 31 22:15:16 2026
+****************************************
+
+Operating Conditions: ss0p72v125c   Library: N16ADFP_StdCellss0p72v125c
+Wire Load Model Mode: segmented
+
+  Startpoint: ifmap_valid
+              (input port clocked by clk)
+  Endpoint: ifmap_spad_reg_2__15_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  ifmap_valid (in)                                      0.0000     1.4500 r
+  U2911/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2907/Z (CKBD1BWP16P90LVT)                            0.0091     1.4742 r
+  U2896/Z (CKBD1BWP16P90LVT)                            0.0087     1.4829 r
+  U2894/Z (CKBD1BWP16P90LVT)                            0.0087     1.4917 r
+  U2891/Z (CKBD1BWP16P90LVT)                            0.0114     1.5031 r
+  U3336/ZN (ND2D1BWP16P90LVT)                           0.0157     1.5188 f
+  U2955/ZN (OAI32D1BWP20P90LVT)                         0.1540     1.6728 r
+  U2954/ZN (CKND1BWP20P90)                              0.1386     1.8114 f
+  U2826/Z (AO22D1BWP16P90LVT)                           0.0275     1.8389 f
+  U2825/Z (DEL050D1BWP20P90)                            0.0822     1.9211 f
+  ifmap_spad_reg_2__15_/D (DFCNQD2BWP16P90LVT)          0.0000     1.9211 f
+  data arrival time                                                1.9211
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  ifmap_spad_reg_2__15_/CP (DFCNQD2BWP16P90LVT)         0.0000     2.1500 r
+  library setup time                                    0.0088     2.1588
+  data required time                                               2.1588
+  --------------------------------------------------------------------------
+  data required time                                               2.1588
+  data arrival time                                               -1.9211
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2377
+
+
+  Startpoint: ifmap_valid
+              (input port clocked by clk)
+  Endpoint: ifmap_spad_reg_0__15_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  ifmap_valid (in)                                      0.0000     1.4500 r
+  U2911/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2907/Z (CKBD1BWP16P90LVT)                            0.0091     1.4742 r
+  U2896/Z (CKBD1BWP16P90LVT)                            0.0087     1.4829 r
+  U2894/Z (CKBD1BWP16P90LVT)                            0.0087     1.4917 r
+  U2891/Z (CKBD1BWP16P90LVT)                            0.0114     1.5031 r
+  U3336/ZN (ND2D1BWP16P90LVT)                           0.0157     1.5188 f
+  U2965/ZN (OAI32D1BWP20P90LVT)                         0.1540     1.6728 r
+  U2956/ZN (CKND1BWP20P90)                              0.1386     1.8114 f
+  U2834/Z (AO22D1BWP16P90LVT)                           0.0275     1.8389 f
+  U2833/Z (DEL050D1BWP20P90)                            0.0822     1.9211 f
+  ifmap_spad_reg_0__15_/D (DFCNQD2BWP16P90LVT)          0.0000     1.9211 f
+  data arrival time                                                1.9211
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  ifmap_spad_reg_0__15_/CP (DFCNQD2BWP16P90LVT)         0.0000     2.1500 r
+  library setup time                                    0.0088     2.1588
+  data required time                                               2.1588
+  --------------------------------------------------------------------------
+  data required time                                               2.1588
+  data arrival time                                               -1.9211
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2377
+
+
+  Startpoint: ifmap_valid
+              (input port clocked by clk)
+  Endpoint: ifmap_spad_reg_1__15_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  ifmap_valid (in)                                      0.0000     1.4500 r
+  U2911/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2907/Z (CKBD1BWP16P90LVT)                            0.0091     1.4742 r
+  U2896/Z (CKBD1BWP16P90LVT)                            0.0087     1.4829 r
+  U2894/Z (CKBD1BWP16P90LVT)                            0.0087     1.4917 r
+  U2891/Z (CKBD1BWP16P90LVT)                            0.0114     1.5031 r
+  U3336/ZN (ND2D1BWP16P90LVT)                           0.0157     1.5188 f
+  U2953/ZN (OAI32D1BWP20P90LVT)                         0.1540     1.6728 r
+  U2952/ZN (CKND1BWP20P90)                              0.1386     1.8114 f
+  U2829/Z (AO22D1BWP16P90LVT)                           0.0275     1.8389 f
+  U2828/Z (DEL050D1BWP20P90)                            0.0822     1.9211 f
+  ifmap_spad_reg_1__15_/D (DFCNQD2BWP16P90LVT)          0.0000     1.9211 f
+  data arrival time                                                1.9211
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  ifmap_spad_reg_1__15_/CP (DFCNQD2BWP16P90LVT)         0.0000     2.1500 r
+  library setup time                                    0.0088     2.1588
+  data required time                                               2.1588
+  --------------------------------------------------------------------------
+  data required time                                               2.1588
+  data arrival time                                               -1.9211
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2377
+
+
+  Startpoint: ifmap_valid
+              (input port clocked by clk)
+  Endpoint: ifmap_spad_reg_2__15_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  ifmap_valid (in)                                      0.0000     1.4500 r
+  U2911/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2907/Z (CKBD1BWP16P90LVT)                            0.0091     1.4742 r
+  U2896/Z (CKBD1BWP16P90LVT)                            0.0087     1.4829 r
+  U2894/Z (CKBD1BWP16P90LVT)                            0.0087     1.4917 r
+  U2891/Z (CKBD1BWP16P90LVT)                            0.0114     1.5031 r
+  U3336/ZN (ND2D1BWP16P90LVT)                           0.0157     1.5188 f
+  U2955/ZN (OAI32D1BWP20P90LVT)                         0.1539     1.6727 r
+  U2954/ZN (CKND1BWP20P90)                              0.1386     1.8113 f
+  U2826/Z (AO22D1BWP16P90LVT)                           0.0275     1.8388 f
+  U2825/Z (DEL050D1BWP20P90)                            0.0822     1.9210 f
+  ifmap_spad_reg_2__15_/D (DFCNQD2BWP16P90LVT)          0.0000     1.9210 f
+  data arrival time                                                1.9210
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  ifmap_spad_reg_2__15_/CP (DFCNQD2BWP16P90LVT)         0.0000     2.1500 r
+  library setup time                                    0.0088     2.1588
+  data required time                                               2.1588
+  --------------------------------------------------------------------------
+  data required time                                               2.1588
+  data arrival time                                               -1.9210
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2377
+
+
+  Startpoint: ifmap_valid
+              (input port clocked by clk)
+  Endpoint: ifmap_spad_reg_0__15_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  ifmap_valid (in)                                      0.0000     1.4500 r
+  U2911/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2907/Z (CKBD1BWP16P90LVT)                            0.0091     1.4742 r
+  U2896/Z (CKBD1BWP16P90LVT)                            0.0087     1.4829 r
+  U2894/Z (CKBD1BWP16P90LVT)                            0.0087     1.4917 r
+  U2891/Z (CKBD1BWP16P90LVT)                            0.0114     1.5031 r
+  U3336/ZN (ND2D1BWP16P90LVT)                           0.0157     1.5188 f
+  U2965/ZN (OAI32D1BWP20P90LVT)                         0.1539     1.6727 r
+  U2956/ZN (CKND1BWP20P90)                              0.1386     1.8113 f
+  U2834/Z (AO22D1BWP16P90LVT)                           0.0275     1.8388 f
+  U2833/Z (DEL050D1BWP20P90)                            0.0822     1.9210 f
+  ifmap_spad_reg_0__15_/D (DFCNQD2BWP16P90LVT)          0.0000     1.9210 f
+  data arrival time                                                1.9210
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  ifmap_spad_reg_0__15_/CP (DFCNQD2BWP16P90LVT)         0.0000     2.1500 r
+  library setup time                                    0.0088     2.1588
+  data required time                                               2.1588
+  --------------------------------------------------------------------------
+  data required time                                               2.1588
+  data arrival time                                               -1.9210
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2377
+
+
+  Startpoint: ifmap_valid
+              (input port clocked by clk)
+  Endpoint: ifmap_spad_reg_1__15_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  ifmap_valid (in)                                      0.0000     1.4500 r
+  U2911/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2907/Z (CKBD1BWP16P90LVT)                            0.0091     1.4742 r
+  U2896/Z (CKBD1BWP16P90LVT)                            0.0087     1.4829 r
+  U2894/Z (CKBD1BWP16P90LVT)                            0.0087     1.4917 r
+  U2891/Z (CKBD1BWP16P90LVT)                            0.0114     1.5031 r
+  U3336/ZN (ND2D1BWP16P90LVT)                           0.0157     1.5188 f
+  U2953/ZN (OAI32D1BWP20P90LVT)                         0.1539     1.6727 r
+  U2952/ZN (CKND1BWP20P90)                              0.1386     1.8113 f
+  U2829/Z (AO22D1BWP16P90LVT)                           0.0275     1.8388 f
+  U2828/Z (DEL050D1BWP20P90)                            0.0822     1.9210 f
+  ifmap_spad_reg_1__15_/D (DFCNQD2BWP16P90LVT)          0.0000     1.9210 f
+  data arrival time                                                1.9210
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  ifmap_spad_reg_1__15_/CP (DFCNQD2BWP16P90LVT)         0.0000     2.1500 r
+  library setup time                                    0.0088     2.1588
+  data required time                                               2.1588
+  --------------------------------------------------------------------------
+  data required time                                               2.1588
+  data arrival time                                               -1.9210
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2377
+
+
+  Startpoint: ifmap_valid
+              (input port clocked by clk)
+  Endpoint: ifmap_spad_reg_2__15_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  ifmap_valid (in)                                      0.0000     1.4500 r
+  U2911/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2907/Z (CKBD1BWP16P90LVT)                            0.0091     1.4742 r
+  U2896/Z (CKBD1BWP16P90LVT)                            0.0087     1.4829 r
+  U2894/Z (CKBD1BWP16P90LVT)                            0.0087     1.4917 r
+  U2891/Z (CKBD1BWP16P90LVT)                            0.0114     1.5031 r
+  U3336/ZN (ND2D1BWP16P90LVT)                           0.0157     1.5188 f
+  U2955/ZN (OAI32D1BWP20P90LVT)                         0.1528     1.6716 r
+  U2954/ZN (CKND1BWP20P90)                              0.1386     1.8102 f
+  U2826/Z (AO22D1BWP16P90LVT)                           0.0275     1.8377 f
+  U2825/Z (DEL050D1BWP20P90)                            0.0822     1.9199 f
+  ifmap_spad_reg_2__15_/D (DFCNQD2BWP16P90LVT)          0.0000     1.9199 f
+  data arrival time                                                1.9199
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  ifmap_spad_reg_2__15_/CP (DFCNQD2BWP16P90LVT)         0.0000     2.1500 r
+  library setup time                                    0.0088     2.1588
+  data required time                                               2.1588
+  --------------------------------------------------------------------------
+  data required time                                               2.1588
+  data arrival time                                               -1.9199
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2389
+
+
+  Startpoint: ifmap_valid
+              (input port clocked by clk)
+  Endpoint: ifmap_spad_reg_0__15_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  ifmap_valid (in)                                      0.0000     1.4500 r
+  U2911/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2907/Z (CKBD1BWP16P90LVT)                            0.0091     1.4742 r
+  U2896/Z (CKBD1BWP16P90LVT)                            0.0087     1.4829 r
+  U2894/Z (CKBD1BWP16P90LVT)                            0.0087     1.4917 r
+  U2891/Z (CKBD1BWP16P90LVT)                            0.0114     1.5031 r
+  U3336/ZN (ND2D1BWP16P90LVT)                           0.0157     1.5188 f
+  U2965/ZN (OAI32D1BWP20P90LVT)                         0.1528     1.6716 r
+  U2956/ZN (CKND1BWP20P90)                              0.1386     1.8102 f
+  U2834/Z (AO22D1BWP16P90LVT)                           0.0275     1.8377 f
+  U2833/Z (DEL050D1BWP20P90)                            0.0822     1.9199 f
+  ifmap_spad_reg_0__15_/D (DFCNQD2BWP16P90LVT)          0.0000     1.9199 f
+  data arrival time                                                1.9199
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  ifmap_spad_reg_0__15_/CP (DFCNQD2BWP16P90LVT)         0.0000     2.1500 r
+  library setup time                                    0.0088     2.1588
+  data required time                                               2.1588
+  --------------------------------------------------------------------------
+  data required time                                               2.1588
+  data arrival time                                               -1.9199
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2389
+
+
+  Startpoint: ifmap_valid
+              (input port clocked by clk)
+  Endpoint: ifmap_spad_reg_1__15_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  ifmap_valid (in)                                      0.0000     1.4500 r
+  U2911/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2907/Z (CKBD1BWP16P90LVT)                            0.0091     1.4742 r
+  U2896/Z (CKBD1BWP16P90LVT)                            0.0087     1.4829 r
+  U2894/Z (CKBD1BWP16P90LVT)                            0.0087     1.4917 r
+  U2891/Z (CKBD1BWP16P90LVT)                            0.0114     1.5031 r
+  U3336/ZN (ND2D1BWP16P90LVT)                           0.0157     1.5188 f
+  U2953/ZN (OAI32D1BWP20P90LVT)                         0.1528     1.6716 r
+  U2952/ZN (CKND1BWP20P90)                              0.1386     1.8102 f
+  U2829/Z (AO22D1BWP16P90LVT)                           0.0275     1.8377 f
+  U2828/Z (DEL050D1BWP20P90)                            0.0822     1.9199 f
+  ifmap_spad_reg_1__15_/D (DFCNQD2BWP16P90LVT)          0.0000     1.9199 f
+  data arrival time                                                1.9199
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  ifmap_spad_reg_1__15_/CP (DFCNQD2BWP16P90LVT)         0.0000     2.1500 r
+  library setup time                                    0.0088     2.1588
+  data required time                                               2.1588
+  --------------------------------------------------------------------------
+  data required time                                               2.1588
+  data arrival time                                               -1.9199
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2389
+
+
+  Startpoint: ifmap_valid
+              (input port clocked by clk)
+  Endpoint: ifmap_spad_reg_2__15_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  ifmap_valid (in)                                      0.0000     1.4500 r
+  U2911/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2907/Z (CKBD1BWP16P90LVT)                            0.0091     1.4742 r
+  U2896/Z (CKBD1BWP16P90LVT)                            0.0087     1.4829 r
+  U2894/Z (CKBD1BWP16P90LVT)                            0.0087     1.4917 r
+  U2891/Z (CKBD1BWP16P90LVT)                            0.0114     1.5031 r
+  U3336/ZN (ND2D1BWP16P90LVT)                           0.0157     1.5188 f
+  U2955/ZN (OAI32D1BWP20P90LVT)                         0.1540     1.6728 r
+  U2954/ZN (CKND1BWP20P90)                              0.1386     1.8114 f
+  U2826/Z (AO22D1BWP16P90LVT)                           0.0254     1.8368 f
+  U2825/Z (DEL050D1BWP20P90)                            0.0822     1.9190 f
+  ifmap_spad_reg_2__15_/D (DFCNQD2BWP16P90LVT)          0.0000     1.9190 f
+  data arrival time                                                1.9190
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  ifmap_spad_reg_2__15_/CP (DFCNQD2BWP16P90LVT)         0.0000     2.1500 r
+  library setup time                                    0.0088     2.1588
+  data required time                                               2.1588
+  --------------------------------------------------------------------------
+  data required time                                               2.1588
+  data arrival time                                               -1.9190
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2398
+
+
+  Startpoint: ifmap_valid
+              (input port clocked by clk)
+  Endpoint: ifmap_spad_reg_0__15_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  ifmap_valid (in)                                      0.0000     1.4500 r
+  U2911/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2907/Z (CKBD1BWP16P90LVT)                            0.0091     1.4742 r
+  U2896/Z (CKBD1BWP16P90LVT)                            0.0087     1.4829 r
+  U2894/Z (CKBD1BWP16P90LVT)                            0.0087     1.4917 r
+  U2891/Z (CKBD1BWP16P90LVT)                            0.0114     1.5031 r
+  U3336/ZN (ND2D1BWP16P90LVT)                           0.0157     1.5188 f
+  U2965/ZN (OAI32D1BWP20P90LVT)                         0.1540     1.6728 r
+  U2956/ZN (CKND1BWP20P90)                              0.1386     1.8114 f
+  U2834/Z (AO22D1BWP16P90LVT)                           0.0254     1.8368 f
+  U2833/Z (DEL050D1BWP20P90)                            0.0822     1.9190 f
+  ifmap_spad_reg_0__15_/D (DFCNQD2BWP16P90LVT)          0.0000     1.9190 f
+  data arrival time                                                1.9190
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  ifmap_spad_reg_0__15_/CP (DFCNQD2BWP16P90LVT)         0.0000     2.1500 r
+  library setup time                                    0.0088     2.1588
+  data required time                                               2.1588
+  --------------------------------------------------------------------------
+  data required time                                               2.1588
+  data arrival time                                               -1.9190
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2398
+
+
+  Startpoint: ifmap_valid
+              (input port clocked by clk)
+  Endpoint: ifmap_spad_reg_1__15_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  ifmap_valid (in)                                      0.0000     1.4500 r
+  U2911/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2907/Z (CKBD1BWP16P90LVT)                            0.0091     1.4742 r
+  U2896/Z (CKBD1BWP16P90LVT)                            0.0087     1.4829 r
+  U2894/Z (CKBD1BWP16P90LVT)                            0.0087     1.4917 r
+  U2891/Z (CKBD1BWP16P90LVT)                            0.0114     1.5031 r
+  U3336/ZN (ND2D1BWP16P90LVT)                           0.0157     1.5188 f
+  U2953/ZN (OAI32D1BWP20P90LVT)                         0.1540     1.6728 r
+  U2952/ZN (CKND1BWP20P90)                              0.1386     1.8114 f
+  U2829/Z (AO22D1BWP16P90LVT)                           0.0254     1.8368 f
+  U2828/Z (DEL050D1BWP20P90)                            0.0822     1.9190 f
+  ifmap_spad_reg_1__15_/D (DFCNQD2BWP16P90LVT)          0.0000     1.9190 f
+  data arrival time                                                1.9190
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  ifmap_spad_reg_1__15_/CP (DFCNQD2BWP16P90LVT)         0.0000     2.1500 r
+  library setup time                                    0.0088     2.1588
+  data required time                                               2.1588
+  --------------------------------------------------------------------------
+  data required time                                               2.1588
+  data arrival time                                               -1.9190
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2398
+
+
+  Startpoint: ifmap_valid
+              (input port clocked by clk)
+  Endpoint: ifmap_spad_reg_2__15_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  ifmap_valid (in)                                      0.0000     1.4500 r
+  U2911/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2907/Z (CKBD1BWP16P90LVT)                            0.0091     1.4742 r
+  U2896/Z (CKBD1BWP16P90LVT)                            0.0087     1.4829 r
+  U2894/Z (CKBD1BWP16P90LVT)                            0.0087     1.4917 r
+  U2891/Z (CKBD1BWP16P90LVT)                            0.0114     1.5031 r
+  U3336/ZN (ND2D1BWP16P90LVT)                           0.0157     1.5188 f
+  U2955/ZN (OAI32D1BWP20P90LVT)                         0.1539     1.6727 r
+  U2954/ZN (CKND1BWP20P90)                              0.1386     1.8113 f
+  U2826/Z (AO22D1BWP16P90LVT)                           0.0254     1.8367 f
+  U2825/Z (DEL050D1BWP20P90)                            0.0822     1.9189 f
+  ifmap_spad_reg_2__15_/D (DFCNQD2BWP16P90LVT)          0.0000     1.9189 f
+  data arrival time                                                1.9189
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  ifmap_spad_reg_2__15_/CP (DFCNQD2BWP16P90LVT)         0.0000     2.1500 r
+  library setup time                                    0.0088     2.1588
+  data required time                                               2.1588
+  --------------------------------------------------------------------------
+  data required time                                               2.1588
+  data arrival time                                               -1.9189
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2399
+
+
+  Startpoint: ifmap_valid
+              (input port clocked by clk)
+  Endpoint: ifmap_spad_reg_0__15_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  ifmap_valid (in)                                      0.0000     1.4500 r
+  U2911/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2907/Z (CKBD1BWP16P90LVT)                            0.0091     1.4742 r
+  U2896/Z (CKBD1BWP16P90LVT)                            0.0087     1.4829 r
+  U2894/Z (CKBD1BWP16P90LVT)                            0.0087     1.4917 r
+  U2891/Z (CKBD1BWP16P90LVT)                            0.0114     1.5031 r
+  U3336/ZN (ND2D1BWP16P90LVT)                           0.0157     1.5188 f
+  U2965/ZN (OAI32D1BWP20P90LVT)                         0.1539     1.6727 r
+  U2956/ZN (CKND1BWP20P90)                              0.1386     1.8113 f
+  U2834/Z (AO22D1BWP16P90LVT)                           0.0254     1.8367 f
+  U2833/Z (DEL050D1BWP20P90)                            0.0822     1.9189 f
+  ifmap_spad_reg_0__15_/D (DFCNQD2BWP16P90LVT)          0.0000     1.9189 f
+  data arrival time                                                1.9189
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  ifmap_spad_reg_0__15_/CP (DFCNQD2BWP16P90LVT)         0.0000     2.1500 r
+  library setup time                                    0.0088     2.1588
+  data required time                                               2.1588
+  --------------------------------------------------------------------------
+  data required time                                               2.1588
+  data arrival time                                               -1.9189
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2399
+
+
+  Startpoint: ifmap_valid
+              (input port clocked by clk)
+  Endpoint: ifmap_spad_reg_1__15_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  ifmap_valid (in)                                      0.0000     1.4500 r
+  U2911/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2907/Z (CKBD1BWP16P90LVT)                            0.0091     1.4742 r
+  U2896/Z (CKBD1BWP16P90LVT)                            0.0087     1.4829 r
+  U2894/Z (CKBD1BWP16P90LVT)                            0.0087     1.4917 r
+  U2891/Z (CKBD1BWP16P90LVT)                            0.0114     1.5031 r
+  U3336/ZN (ND2D1BWP16P90LVT)                           0.0157     1.5188 f
+  U2953/ZN (OAI32D1BWP20P90LVT)                         0.1539     1.6727 r
+  U2952/ZN (CKND1BWP20P90)                              0.1386     1.8113 f
+  U2829/Z (AO22D1BWP16P90LVT)                           0.0254     1.8367 f
+  U2828/Z (DEL050D1BWP20P90)                            0.0822     1.9189 f
+  ifmap_spad_reg_1__15_/D (DFCNQD2BWP16P90LVT)          0.0000     1.9189 f
+  data arrival time                                                1.9189
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  ifmap_spad_reg_1__15_/CP (DFCNQD2BWP16P90LVT)         0.0000     2.1500 r
+  library setup time                                    0.0088     2.1588
+  data required time                                               2.1588
+  --------------------------------------------------------------------------
+  data required time                                               2.1588
+  data arrival time                                               -1.9189
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2399
+
+
+  Startpoint: ifmap_valid
+              (input port clocked by clk)
+  Endpoint: ifmap_spad_reg_2__15_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  ifmap_valid (in)                                      0.0000     1.4500 r
+  U2911/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2907/Z (CKBD1BWP16P90LVT)                            0.0091     1.4742 r
+  U2896/Z (CKBD1BWP16P90LVT)                            0.0087     1.4829 r
+  U2894/Z (CKBD1BWP16P90LVT)                            0.0087     1.4917 r
+  U2891/Z (CKBD1BWP16P90LVT)                            0.0114     1.5031 r
+  U3336/ZN (ND2D1BWP16P90LVT)                           0.0157     1.5188 f
+  U2955/ZN (OAI32D1BWP20P90LVT)                         0.1540     1.6728 r
+  U2954/ZN (CKND1BWP20P90)                              0.1386     1.8114 f
+  U2826/Z (AO22D1BWP16P90LVT)                           0.0250     1.8364 f
+  U2825/Z (DEL050D1BWP20P90)                            0.0822     1.9186 f
+  ifmap_spad_reg_2__15_/D (DFCNQD2BWP16P90LVT)          0.0000     1.9186 f
+  data arrival time                                                1.9186
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  ifmap_spad_reg_2__15_/CP (DFCNQD2BWP16P90LVT)         0.0000     2.1500 r
+  library setup time                                    0.0088     2.1588
+  data required time                                               2.1588
+  --------------------------------------------------------------------------
+  data required time                                               2.1588
+  data arrival time                                               -1.9186
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2402
+
+
+  Startpoint: ifmap_valid
+              (input port clocked by clk)
+  Endpoint: ifmap_spad_reg_0__15_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  ifmap_valid (in)                                      0.0000     1.4500 r
+  U2911/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2907/Z (CKBD1BWP16P90LVT)                            0.0091     1.4742 r
+  U2896/Z (CKBD1BWP16P90LVT)                            0.0087     1.4829 r
+  U2894/Z (CKBD1BWP16P90LVT)                            0.0087     1.4917 r
+  U2891/Z (CKBD1BWP16P90LVT)                            0.0114     1.5031 r
+  U3336/ZN (ND2D1BWP16P90LVT)                           0.0157     1.5188 f
+  U2965/ZN (OAI32D1BWP20P90LVT)                         0.1540     1.6728 r
+  U2956/ZN (CKND1BWP20P90)                              0.1386     1.8114 f
+  U2834/Z (AO22D1BWP16P90LVT)                           0.0250     1.8364 f
+  U2833/Z (DEL050D1BWP20P90)                            0.0822     1.9186 f
+  ifmap_spad_reg_0__15_/D (DFCNQD2BWP16P90LVT)          0.0000     1.9186 f
+  data arrival time                                                1.9186
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  ifmap_spad_reg_0__15_/CP (DFCNQD2BWP16P90LVT)         0.0000     2.1500 r
+  library setup time                                    0.0088     2.1588
+  data required time                                               2.1588
+  --------------------------------------------------------------------------
+  data required time                                               2.1588
+  data arrival time                                               -1.9186
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2402
+
+
+  Startpoint: ifmap_valid
+              (input port clocked by clk)
+  Endpoint: ifmap_spad_reg_1__15_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  ifmap_valid (in)                                      0.0000     1.4500 r
+  U2911/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2907/Z (CKBD1BWP16P90LVT)                            0.0091     1.4742 r
+  U2896/Z (CKBD1BWP16P90LVT)                            0.0087     1.4829 r
+  U2894/Z (CKBD1BWP16P90LVT)                            0.0087     1.4917 r
+  U2891/Z (CKBD1BWP16P90LVT)                            0.0114     1.5031 r
+  U3336/ZN (ND2D1BWP16P90LVT)                           0.0157     1.5188 f
+  U2953/ZN (OAI32D1BWP20P90LVT)                         0.1540     1.6728 r
+  U2952/ZN (CKND1BWP20P90)                              0.1386     1.8114 f
+  U2829/Z (AO22D1BWP16P90LVT)                           0.0250     1.8364 f
+  U2828/Z (DEL050D1BWP20P90)                            0.0822     1.9186 f
+  ifmap_spad_reg_1__15_/D (DFCNQD2BWP16P90LVT)          0.0000     1.9186 f
+  data arrival time                                                1.9186
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  ifmap_spad_reg_1__15_/CP (DFCNQD2BWP16P90LVT)         0.0000     2.1500 r
+  library setup time                                    0.0088     2.1588
+  data required time                                               2.1588
+  --------------------------------------------------------------------------
+  data required time                                               2.1588
+  data arrival time                                               -1.9186
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2402
+
+
+  Startpoint: ifmap_valid
+              (input port clocked by clk)
+  Endpoint: ifmap_spad_reg_2__15_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  ifmap_valid (in)                                      0.0000     1.4500 r
+  U2911/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2907/Z (CKBD1BWP16P90LVT)                            0.0091     1.4742 r
+  U2896/Z (CKBD1BWP16P90LVT)                            0.0087     1.4829 r
+  U2894/Z (CKBD1BWP16P90LVT)                            0.0087     1.4917 r
+  U2891/Z (CKBD1BWP16P90LVT)                            0.0114     1.5031 r
+  U3336/ZN (ND2D1BWP16P90LVT)                           0.0157     1.5188 f
+  U2955/ZN (OAI32D1BWP20P90LVT)                         0.1539     1.6727 r
+  U2954/ZN (CKND1BWP20P90)                              0.1386     1.8113 f
+  U2826/Z (AO22D1BWP16P90LVT)                           0.0250     1.8363 f
+  U2825/Z (DEL050D1BWP20P90)                            0.0822     1.9185 f
+  ifmap_spad_reg_2__15_/D (DFCNQD2BWP16P90LVT)          0.0000     1.9185 f
+  data arrival time                                                1.9185
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  ifmap_spad_reg_2__15_/CP (DFCNQD2BWP16P90LVT)         0.0000     2.1500 r
+  library setup time                                    0.0088     2.1588
+  data required time                                               2.1588
+  --------------------------------------------------------------------------
+  data required time                                               2.1588
+  data arrival time                                               -1.9185
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2402
+
+
+  Startpoint: ifmap_valid
+              (input port clocked by clk)
+  Endpoint: ifmap_spad_reg_0__15_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  ifmap_valid (in)                                      0.0000     1.4500 r
+  U2911/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2907/Z (CKBD1BWP16P90LVT)                            0.0091     1.4742 r
+  U2896/Z (CKBD1BWP16P90LVT)                            0.0087     1.4829 r
+  U2894/Z (CKBD1BWP16P90LVT)                            0.0087     1.4917 r
+  U2891/Z (CKBD1BWP16P90LVT)                            0.0114     1.5031 r
+  U3336/ZN (ND2D1BWP16P90LVT)                           0.0157     1.5188 f
+  U2965/ZN (OAI32D1BWP20P90LVT)                         0.1539     1.6727 r
+  U2956/ZN (CKND1BWP20P90)                              0.1386     1.8113 f
+  U2834/Z (AO22D1BWP16P90LVT)                           0.0250     1.8363 f
+  U2833/Z (DEL050D1BWP20P90)                            0.0822     1.9185 f
+  ifmap_spad_reg_0__15_/D (DFCNQD2BWP16P90LVT)          0.0000     1.9185 f
+  data arrival time                                                1.9185
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  ifmap_spad_reg_0__15_/CP (DFCNQD2BWP16P90LVT)         0.0000     2.1500 r
+  library setup time                                    0.0088     2.1588
+  data required time                                               2.1588
+  --------------------------------------------------------------------------
+  data required time                                               2.1588
+  data arrival time                                               -1.9185
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2402
+
+
+  Startpoint: ifmap_valid
+              (input port clocked by clk)
+  Endpoint: ifmap_spad_reg_1__15_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  ifmap_valid (in)                                      0.0000     1.4500 r
+  U2911/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2907/Z (CKBD1BWP16P90LVT)                            0.0091     1.4742 r
+  U2896/Z (CKBD1BWP16P90LVT)                            0.0087     1.4829 r
+  U2894/Z (CKBD1BWP16P90LVT)                            0.0087     1.4917 r
+  U2891/Z (CKBD1BWP16P90LVT)                            0.0114     1.5031 r
+  U3336/ZN (ND2D1BWP16P90LVT)                           0.0157     1.5188 f
+  U2953/ZN (OAI32D1BWP20P90LVT)                         0.1539     1.6727 r
+  U2952/ZN (CKND1BWP20P90)                              0.1386     1.8113 f
+  U2829/Z (AO22D1BWP16P90LVT)                           0.0250     1.8363 f
+  U2828/Z (DEL050D1BWP20P90)                            0.0822     1.9185 f
+  ifmap_spad_reg_1__15_/D (DFCNQD2BWP16P90LVT)          0.0000     1.9185 f
+  data arrival time                                                1.9185
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  ifmap_spad_reg_1__15_/CP (DFCNQD2BWP16P90LVT)         0.0000     2.1500 r
+  library setup time                                    0.0088     2.1588
+  data required time                                               2.1588
+  --------------------------------------------------------------------------
+  data required time                                               2.1588
+  data arrival time                                               -1.9185
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2402
+
+
+  Startpoint: ifmap_valid
+              (input port clocked by clk)
+  Endpoint: ifmap_spad_reg_2__15_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  ifmap_valid (in)                                      0.0000     1.4500 r
+  U2911/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2907/Z (CKBD1BWP16P90LVT)                            0.0091     1.4742 r
+  U2896/Z (CKBD1BWP16P90LVT)                            0.0087     1.4829 r
+  U2894/Z (CKBD1BWP16P90LVT)                            0.0087     1.4917 r
+  U2891/Z (CKBD1BWP16P90LVT)                            0.0114     1.5031 r
+  U3336/ZN (ND2D1BWP16P90LVT)                           0.0157     1.5188 f
+  U2955/ZN (OAI32D1BWP20P90LVT)                         0.1528     1.6716 r
+  U2954/ZN (CKND1BWP20P90)                              0.1386     1.8102 f
+  U2826/Z (AO22D1BWP16P90LVT)                           0.0254     1.8356 f
+  U2825/Z (DEL050D1BWP20P90)                            0.0822     1.9178 f
+  ifmap_spad_reg_2__15_/D (DFCNQD2BWP16P90LVT)          0.0000     1.9178 f
+  data arrival time                                                1.9178
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  ifmap_spad_reg_2__15_/CP (DFCNQD2BWP16P90LVT)         0.0000     2.1500 r
+  library setup time                                    0.0088     2.1588
+  data required time                                               2.1588
+  --------------------------------------------------------------------------
+  data required time                                               2.1588
+  data arrival time                                               -1.9178
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2410
+
+
+  Startpoint: ifmap_valid
+              (input port clocked by clk)
+  Endpoint: ifmap_spad_reg_0__15_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  ifmap_valid (in)                                      0.0000     1.4500 r
+  U2911/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2907/Z (CKBD1BWP16P90LVT)                            0.0091     1.4742 r
+  U2896/Z (CKBD1BWP16P90LVT)                            0.0087     1.4829 r
+  U2894/Z (CKBD1BWP16P90LVT)                            0.0087     1.4917 r
+  U2891/Z (CKBD1BWP16P90LVT)                            0.0114     1.5031 r
+  U3336/ZN (ND2D1BWP16P90LVT)                           0.0157     1.5188 f
+  U2965/ZN (OAI32D1BWP20P90LVT)                         0.1528     1.6716 r
+  U2956/ZN (CKND1BWP20P90)                              0.1386     1.8102 f
+  U2834/Z (AO22D1BWP16P90LVT)                           0.0254     1.8356 f
+  U2833/Z (DEL050D1BWP20P90)                            0.0822     1.9178 f
+  ifmap_spad_reg_0__15_/D (DFCNQD2BWP16P90LVT)          0.0000     1.9178 f
+  data arrival time                                                1.9178
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  ifmap_spad_reg_0__15_/CP (DFCNQD2BWP16P90LVT)         0.0000     2.1500 r
+  library setup time                                    0.0088     2.1588
+  data required time                                               2.1588
+  --------------------------------------------------------------------------
+  data required time                                               2.1588
+  data arrival time                                               -1.9178
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2410
+
+
+  Startpoint: ifmap_valid
+              (input port clocked by clk)
+  Endpoint: ifmap_spad_reg_1__15_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  ifmap_valid (in)                                      0.0000     1.4500 r
+  U2911/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2907/Z (CKBD1BWP16P90LVT)                            0.0091     1.4742 r
+  U2896/Z (CKBD1BWP16P90LVT)                            0.0087     1.4829 r
+  U2894/Z (CKBD1BWP16P90LVT)                            0.0087     1.4917 r
+  U2891/Z (CKBD1BWP16P90LVT)                            0.0114     1.5031 r
+  U3336/ZN (ND2D1BWP16P90LVT)                           0.0157     1.5188 f
+  U2953/ZN (OAI32D1BWP20P90LVT)                         0.1528     1.6716 r
+  U2952/ZN (CKND1BWP20P90)                              0.1386     1.8102 f
+  U2829/Z (AO22D1BWP16P90LVT)                           0.0254     1.8356 f
+  U2828/Z (DEL050D1BWP20P90)                            0.0822     1.9178 f
+  ifmap_spad_reg_1__15_/D (DFCNQD2BWP16P90LVT)          0.0000     1.9178 f
+  data arrival time                                                1.9178
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  ifmap_spad_reg_1__15_/CP (DFCNQD2BWP16P90LVT)         0.0000     2.1500 r
+  library setup time                                    0.0088     2.1588
+  data required time                                               2.1588
+  --------------------------------------------------------------------------
+  data required time                                               2.1588
+  data arrival time                                               -1.9178
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2410
+
+
+  Startpoint: ifmap_valid
+              (input port clocked by clk)
+  Endpoint: ifmap_spad_reg_2__15_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  ifmap_valid (in)                                      0.0000     1.4500 r
+  U2911/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2907/Z (CKBD1BWP16P90LVT)                            0.0091     1.4742 r
+  U2896/Z (CKBD1BWP16P90LVT)                            0.0087     1.4829 r
+  U2894/Z (CKBD1BWP16P90LVT)                            0.0087     1.4917 r
+  U2891/Z (CKBD1BWP16P90LVT)                            0.0114     1.5031 r
+  U3336/ZN (ND2D1BWP16P90LVT)                           0.0157     1.5188 f
+  U2955/ZN (OAI32D1BWP20P90LVT)                         0.1528     1.6716 r
+  U2954/ZN (CKND1BWP20P90)                              0.1386     1.8102 f
+  U2826/Z (AO22D1BWP16P90LVT)                           0.0250     1.8352 f
+  U2825/Z (DEL050D1BWP20P90)                            0.0822     1.9174 f
+  ifmap_spad_reg_2__15_/D (DFCNQD2BWP16P90LVT)          0.0000     1.9174 f
+  data arrival time                                                1.9174
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  ifmap_spad_reg_2__15_/CP (DFCNQD2BWP16P90LVT)         0.0000     2.1500 r
+  library setup time                                    0.0088     2.1588
+  data required time                                               2.1588
+  --------------------------------------------------------------------------
+  data required time                                               2.1588
+  data arrival time                                               -1.9174
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2414
+
+
+  Startpoint: ifmap_valid
+              (input port clocked by clk)
+  Endpoint: ifmap_spad_reg_0__15_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  ifmap_valid (in)                                      0.0000     1.4500 r
+  U2911/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2907/Z (CKBD1BWP16P90LVT)                            0.0091     1.4742 r
+  U2896/Z (CKBD1BWP16P90LVT)                            0.0087     1.4829 r
+  U2894/Z (CKBD1BWP16P90LVT)                            0.0087     1.4917 r
+  U2891/Z (CKBD1BWP16P90LVT)                            0.0114     1.5031 r
+  U3336/ZN (ND2D1BWP16P90LVT)                           0.0157     1.5188 f
+  U2965/ZN (OAI32D1BWP20P90LVT)                         0.1528     1.6716 r
+  U2956/ZN (CKND1BWP20P90)                              0.1386     1.8102 f
+  U2834/Z (AO22D1BWP16P90LVT)                           0.0250     1.8352 f
+  U2833/Z (DEL050D1BWP20P90)                            0.0822     1.9174 f
+  ifmap_spad_reg_0__15_/D (DFCNQD2BWP16P90LVT)          0.0000     1.9174 f
+  data arrival time                                                1.9174
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  ifmap_spad_reg_0__15_/CP (DFCNQD2BWP16P90LVT)         0.0000     2.1500 r
+  library setup time                                    0.0088     2.1588
+  data required time                                               2.1588
+  --------------------------------------------------------------------------
+  data required time                                               2.1588
+  data arrival time                                               -1.9174
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2414
+
+
+  Startpoint: ifmap_valid
+              (input port clocked by clk)
+  Endpoint: ifmap_spad_reg_1__15_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  ifmap_valid (in)                                      0.0000     1.4500 r
+  U2911/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2907/Z (CKBD1BWP16P90LVT)                            0.0091     1.4742 r
+  U2896/Z (CKBD1BWP16P90LVT)                            0.0087     1.4829 r
+  U2894/Z (CKBD1BWP16P90LVT)                            0.0087     1.4917 r
+  U2891/Z (CKBD1BWP16P90LVT)                            0.0114     1.5031 r
+  U3336/ZN (ND2D1BWP16P90LVT)                           0.0157     1.5188 f
+  U2953/ZN (OAI32D1BWP20P90LVT)                         0.1528     1.6716 r
+  U2952/ZN (CKND1BWP20P90)                              0.1386     1.8102 f
+  U2829/Z (AO22D1BWP16P90LVT)                           0.0250     1.8352 f
+  U2828/Z (DEL050D1BWP20P90)                            0.0822     1.9174 f
+  ifmap_spad_reg_1__15_/D (DFCNQD2BWP16P90LVT)          0.0000     1.9174 f
+  data arrival time                                                1.9174
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  ifmap_spad_reg_1__15_/CP (DFCNQD2BWP16P90LVT)         0.0000     2.1500 r
+  library setup time                                    0.0088     2.1588
+  data required time                                               2.1588
+  --------------------------------------------------------------------------
+  data required time                                               2.1588
+  data arrival time                                               -1.9174
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2414
+
+
+  Startpoint: filter_valid
+              (input port clocked by clk)
+  Endpoint: filter_spad_reg_0__0__21_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  filter_valid (in)                                     0.0000     1.4500 r
+  U2909/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2906/Z (CKBD1BWP16P90LVT)                            0.0105     1.4757 r
+  U2890/Z (CKBD1BWP16P90LVT)                            0.0092     1.4849 r
+  U2881/Z (CKBD1BWP16P90LVT)                            0.0099     1.4947 r
+  U2893/ZN (CKND2D1BWP20P90)                            0.0155     1.5103 f
+  U3034/ZN (NR2D1BWP16P90LVT)                           0.0247     1.5350 r
+  U2961/ZN (ND2D1BWP20P90LVT)                           0.2024     1.7374 f
+  U2502/ZN (IOA22D1BWP20P90)                            0.0472     1.7846 r
+  U2501/Z (DEL050D1BWP20P90)                            0.0955     1.8801 r
+  filter_spad_reg_0__0__21_/D (DFCNQD2BWP16P90LVT)      0.0000     1.8801 r
+  data arrival time                                                1.8801
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  filter_spad_reg_0__0__21_/CP (DFCNQD2BWP16P90LVT)     0.0000     2.1500 r
+  library setup time                                   -0.0121     2.1379
+  data required time                                               2.1379
+  --------------------------------------------------------------------------
+  data required time                                               2.1379
+  data arrival time                                               -1.8801
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2578
+
+
+  Startpoint: filter_valid
+              (input port clocked by clk)
+  Endpoint: filter_spad_reg_0__0__20_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  filter_valid (in)                                     0.0000     1.4500 r
+  U2909/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2906/Z (CKBD1BWP16P90LVT)                            0.0105     1.4757 r
+  U2890/Z (CKBD1BWP16P90LVT)                            0.0092     1.4849 r
+  U2881/Z (CKBD1BWP16P90LVT)                            0.0099     1.4947 r
+  U2893/ZN (CKND2D1BWP20P90)                            0.0155     1.5103 f
+  U3034/ZN (NR2D1BWP16P90LVT)                           0.0247     1.5350 r
+  U2961/ZN (ND2D1BWP20P90LVT)                           0.2024     1.7374 f
+  U2498/ZN (IOA22D1BWP20P90)                            0.0472     1.7846 r
+  U2497/Z (DEL050D1BWP20P90)                            0.0955     1.8801 r
+  filter_spad_reg_0__0__20_/D (DFCNQD2BWP16P90LVT)      0.0000     1.8801 r
+  data arrival time                                                1.8801
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  filter_spad_reg_0__0__20_/CP (DFCNQD2BWP16P90LVT)     0.0000     2.1500 r
+  library setup time                                   -0.0121     2.1379
+  data required time                                               2.1379
+  --------------------------------------------------------------------------
+  data required time                                               2.1379
+  data arrival time                                               -1.8801
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2578
+
+
+  Startpoint: filter_valid
+              (input port clocked by clk)
+  Endpoint: filter_spad_reg_0__0__19_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  filter_valid (in)                                     0.0000     1.4500 r
+  U2909/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2906/Z (CKBD1BWP16P90LVT)                            0.0105     1.4757 r
+  U2890/Z (CKBD1BWP16P90LVT)                            0.0092     1.4849 r
+  U2881/Z (CKBD1BWP16P90LVT)                            0.0099     1.4947 r
+  U2893/ZN (CKND2D1BWP20P90)                            0.0155     1.5103 f
+  U3034/ZN (NR2D1BWP16P90LVT)                           0.0247     1.5350 r
+  U2961/ZN (ND2D1BWP20P90LVT)                           0.2024     1.7374 f
+  U2494/ZN (IOA22D1BWP20P90)                            0.0472     1.7846 r
+  U2493/Z (DEL050D1BWP20P90)                            0.0955     1.8801 r
+  filter_spad_reg_0__0__19_/D (DFCNQD2BWP16P90LVT)      0.0000     1.8801 r
+  data arrival time                                                1.8801
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  filter_spad_reg_0__0__19_/CP (DFCNQD2BWP16P90LVT)     0.0000     2.1500 r
+  library setup time                                   -0.0121     2.1379
+  data required time                                               2.1379
+  --------------------------------------------------------------------------
+  data required time                                               2.1379
+  data arrival time                                               -1.8801
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2578
+
+
+  Startpoint: filter_valid
+              (input port clocked by clk)
+  Endpoint: filter_spad_reg_0__0__18_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  filter_valid (in)                                     0.0000     1.4500 r
+  U2909/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2906/Z (CKBD1BWP16P90LVT)                            0.0105     1.4757 r
+  U2890/Z (CKBD1BWP16P90LVT)                            0.0092     1.4849 r
+  U2881/Z (CKBD1BWP16P90LVT)                            0.0099     1.4947 r
+  U2893/ZN (CKND2D1BWP20P90)                            0.0155     1.5103 f
+  U3034/ZN (NR2D1BWP16P90LVT)                           0.0247     1.5350 r
+  U2961/ZN (ND2D1BWP20P90LVT)                           0.2024     1.7374 f
+  U2490/ZN (IOA22D1BWP20P90)                            0.0472     1.7846 r
+  U2489/Z (DEL050D1BWP20P90)                            0.0955     1.8801 r
+  filter_spad_reg_0__0__18_/D (DFCNQD2BWP16P90LVT)      0.0000     1.8801 r
+  data arrival time                                                1.8801
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  filter_spad_reg_0__0__18_/CP (DFCNQD2BWP16P90LVT)     0.0000     2.1500 r
+  library setup time                                   -0.0121     2.1379
+  data required time                                               2.1379
+  --------------------------------------------------------------------------
+  data required time                                               2.1379
+  data arrival time                                               -1.8801
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2578
+
+
+  Startpoint: filter_valid
+              (input port clocked by clk)
+  Endpoint: filter_spad_reg_0__0__17_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  filter_valid (in)                                     0.0000     1.4500 r
+  U2909/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2906/Z (CKBD1BWP16P90LVT)                            0.0105     1.4757 r
+  U2890/Z (CKBD1BWP16P90LVT)                            0.0092     1.4849 r
+  U2881/Z (CKBD1BWP16P90LVT)                            0.0099     1.4947 r
+  U2893/ZN (CKND2D1BWP20P90)                            0.0155     1.5103 f
+  U3034/ZN (NR2D1BWP16P90LVT)                           0.0247     1.5350 r
+  U2961/ZN (ND2D1BWP20P90LVT)                           0.2024     1.7374 f
+  U2486/ZN (IOA22D1BWP20P90)                            0.0472     1.7846 r
+  U2485/Z (DEL050D1BWP20P90)                            0.0955     1.8801 r
+  filter_spad_reg_0__0__17_/D (DFCNQD2BWP16P90LVT)      0.0000     1.8801 r
+  data arrival time                                                1.8801
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  filter_spad_reg_0__0__17_/CP (DFCNQD2BWP16P90LVT)     0.0000     2.1500 r
+  library setup time                                   -0.0121     2.1379
+  data required time                                               2.1379
+  --------------------------------------------------------------------------
+  data required time                                               2.1379
+  data arrival time                                               -1.8801
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2578
+
+
+  Startpoint: filter_valid
+              (input port clocked by clk)
+  Endpoint: filter_spad_reg_0__0__16_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  filter_valid (in)                                     0.0000     1.4500 r
+  U2909/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2906/Z (CKBD1BWP16P90LVT)                            0.0105     1.4757 r
+  U2890/Z (CKBD1BWP16P90LVT)                            0.0092     1.4849 r
+  U2881/Z (CKBD1BWP16P90LVT)                            0.0099     1.4947 r
+  U2893/ZN (CKND2D1BWP20P90)                            0.0155     1.5103 f
+  U3034/ZN (NR2D1BWP16P90LVT)                           0.0247     1.5350 r
+  U2961/ZN (ND2D1BWP20P90LVT)                           0.2024     1.7374 f
+  U2482/ZN (IOA22D1BWP20P90)                            0.0472     1.7846 r
+  U2481/Z (DEL050D1BWP20P90)                            0.0955     1.8801 r
+  filter_spad_reg_0__0__16_/D (DFCNQD2BWP16P90LVT)      0.0000     1.8801 r
+  data arrival time                                                1.8801
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  filter_spad_reg_0__0__16_/CP (DFCNQD2BWP16P90LVT)     0.0000     2.1500 r
+  library setup time                                   -0.0121     2.1379
+  data required time                                               2.1379
+  --------------------------------------------------------------------------
+  data required time                                               2.1379
+  data arrival time                                               -1.8801
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2578
+
+
+  Startpoint: filter_valid
+              (input port clocked by clk)
+  Endpoint: filter_spad_reg_0__0__15_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  filter_valid (in)                                     0.0000     1.4500 r
+  U2909/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2906/Z (CKBD1BWP16P90LVT)                            0.0105     1.4757 r
+  U2890/Z (CKBD1BWP16P90LVT)                            0.0092     1.4849 r
+  U2881/Z (CKBD1BWP16P90LVT)                            0.0099     1.4947 r
+  U2893/ZN (CKND2D1BWP20P90)                            0.0155     1.5103 f
+  U3034/ZN (NR2D1BWP16P90LVT)                           0.0247     1.5350 r
+  U2961/ZN (ND2D1BWP20P90LVT)                           0.2024     1.7374 f
+  U2478/ZN (IOA22D1BWP20P90)                            0.0472     1.7846 r
+  U2477/Z (DEL050D1BWP20P90)                            0.0955     1.8801 r
+  filter_spad_reg_0__0__15_/D (DFCNQD2BWP16P90LVT)      0.0000     1.8801 r
+  data arrival time                                                1.8801
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  filter_spad_reg_0__0__15_/CP (DFCNQD2BWP16P90LVT)     0.0000     2.1500 r
+  library setup time                                   -0.0121     2.1379
+  data required time                                               2.1379
+  --------------------------------------------------------------------------
+  data required time                                               2.1379
+  data arrival time                                               -1.8801
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2578
+
+
+  Startpoint: filter_valid
+              (input port clocked by clk)
+  Endpoint: filter_spad_reg_0__0__14_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  filter_valid (in)                                     0.0000     1.4500 r
+  U2909/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2906/Z (CKBD1BWP16P90LVT)                            0.0105     1.4757 r
+  U2890/Z (CKBD1BWP16P90LVT)                            0.0092     1.4849 r
+  U2881/Z (CKBD1BWP16P90LVT)                            0.0099     1.4947 r
+  U2893/ZN (CKND2D1BWP20P90)                            0.0155     1.5103 f
+  U3034/ZN (NR2D1BWP16P90LVT)                           0.0247     1.5350 r
+  U2961/ZN (ND2D1BWP20P90LVT)                           0.2024     1.7374 f
+  U2474/ZN (IOA22D1BWP20P90)                            0.0472     1.7846 r
+  U2473/Z (DEL050D1BWP20P90)                            0.0955     1.8801 r
+  filter_spad_reg_0__0__14_/D (DFCNQD2BWP16P90LVT)      0.0000     1.8801 r
+  data arrival time                                                1.8801
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  filter_spad_reg_0__0__14_/CP (DFCNQD2BWP16P90LVT)     0.0000     2.1500 r
+  library setup time                                   -0.0121     2.1379
+  data required time                                               2.1379
+  --------------------------------------------------------------------------
+  data required time                                               2.1379
+  data arrival time                                               -1.8801
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2578
+
+
+  Startpoint: filter_valid
+              (input port clocked by clk)
+  Endpoint: filter_spad_reg_0__0__13_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  filter_valid (in)                                     0.0000     1.4500 r
+  U2909/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2906/Z (CKBD1BWP16P90LVT)                            0.0105     1.4757 r
+  U2890/Z (CKBD1BWP16P90LVT)                            0.0092     1.4849 r
+  U2881/Z (CKBD1BWP16P90LVT)                            0.0099     1.4947 r
+  U2893/ZN (CKND2D1BWP20P90)                            0.0155     1.5103 f
+  U3034/ZN (NR2D1BWP16P90LVT)                           0.0247     1.5350 r
+  U2961/ZN (ND2D1BWP20P90LVT)                           0.2024     1.7374 f
+  U2470/ZN (IOA22D1BWP20P90)                            0.0472     1.7846 r
+  U2469/Z (DEL050D1BWP20P90)                            0.0955     1.8801 r
+  filter_spad_reg_0__0__13_/D (DFCNQD2BWP16P90LVT)      0.0000     1.8801 r
+  data arrival time                                                1.8801
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  filter_spad_reg_0__0__13_/CP (DFCNQD2BWP16P90LVT)     0.0000     2.1500 r
+  library setup time                                   -0.0121     2.1379
+  data required time                                               2.1379
+  --------------------------------------------------------------------------
+  data required time                                               2.1379
+  data arrival time                                               -1.8801
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2578
+
+
+  Startpoint: filter_valid
+              (input port clocked by clk)
+  Endpoint: filter_spad_reg_0__0__12_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  filter_valid (in)                                     0.0000     1.4500 r
+  U2909/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2906/Z (CKBD1BWP16P90LVT)                            0.0105     1.4757 r
+  U2890/Z (CKBD1BWP16P90LVT)                            0.0092     1.4849 r
+  U2881/Z (CKBD1BWP16P90LVT)                            0.0099     1.4947 r
+  U2893/ZN (CKND2D1BWP20P90)                            0.0155     1.5103 f
+  U3034/ZN (NR2D1BWP16P90LVT)                           0.0247     1.5350 r
+  U2961/ZN (ND2D1BWP20P90LVT)                           0.2024     1.7374 f
+  U2466/ZN (IOA22D1BWP20P90)                            0.0472     1.7846 r
+  U2465/Z (DEL050D1BWP20P90)                            0.0955     1.8801 r
+  filter_spad_reg_0__0__12_/D (DFCNQD2BWP16P90LVT)      0.0000     1.8801 r
+  data arrival time                                                1.8801
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  filter_spad_reg_0__0__12_/CP (DFCNQD2BWP16P90LVT)     0.0000     2.1500 r
+  library setup time                                   -0.0121     2.1379
+  data required time                                               2.1379
+  --------------------------------------------------------------------------
+  data required time                                               2.1379
+  data arrival time                                               -1.8801
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2578
+
+
+  Startpoint: filter_valid
+              (input port clocked by clk)
+  Endpoint: filter_spad_reg_0__0__11_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  filter_valid (in)                                     0.0000     1.4500 r
+  U2909/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2906/Z (CKBD1BWP16P90LVT)                            0.0105     1.4757 r
+  U2890/Z (CKBD1BWP16P90LVT)                            0.0092     1.4849 r
+  U2881/Z (CKBD1BWP16P90LVT)                            0.0099     1.4947 r
+  U2893/ZN (CKND2D1BWP20P90)                            0.0155     1.5103 f
+  U3034/ZN (NR2D1BWP16P90LVT)                           0.0247     1.5350 r
+  U2961/ZN (ND2D1BWP20P90LVT)                           0.2024     1.7374 f
+  U2462/ZN (IOA22D1BWP20P90)                            0.0472     1.7846 r
+  U2461/Z (DEL050D1BWP20P90)                            0.0955     1.8801 r
+  filter_spad_reg_0__0__11_/D (DFCNQD2BWP16P90LVT)      0.0000     1.8801 r
+  data arrival time                                                1.8801
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  filter_spad_reg_0__0__11_/CP (DFCNQD2BWP16P90LVT)     0.0000     2.1500 r
+  library setup time                                   -0.0121     2.1379
+  data required time                                               2.1379
+  --------------------------------------------------------------------------
+  data required time                                               2.1379
+  data arrival time                                               -1.8801
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2578
+
+
+  Startpoint: filter_valid
+              (input port clocked by clk)
+  Endpoint: filter_spad_reg_0__0__10_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  filter_valid (in)                                     0.0000     1.4500 r
+  U2909/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2906/Z (CKBD1BWP16P90LVT)                            0.0105     1.4757 r
+  U2890/Z (CKBD1BWP16P90LVT)                            0.0092     1.4849 r
+  U2881/Z (CKBD1BWP16P90LVT)                            0.0099     1.4947 r
+  U2893/ZN (CKND2D1BWP20P90)                            0.0155     1.5103 f
+  U3034/ZN (NR2D1BWP16P90LVT)                           0.0247     1.5350 r
+  U2961/ZN (ND2D1BWP20P90LVT)                           0.2024     1.7374 f
+  U2458/ZN (IOA22D1BWP20P90)                            0.0472     1.7846 r
+  U2457/Z (DEL050D1BWP20P90)                            0.0955     1.8801 r
+  filter_spad_reg_0__0__10_/D (DFCNQD2BWP16P90LVT)      0.0000     1.8801 r
+  data arrival time                                                1.8801
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  filter_spad_reg_0__0__10_/CP (DFCNQD2BWP16P90LVT)     0.0000     2.1500 r
+  library setup time                                   -0.0121     2.1379
+  data required time                                               2.1379
+  --------------------------------------------------------------------------
+  data required time                                               2.1379
+  data arrival time                                               -1.8801
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2578
+
+
+  Startpoint: filter_valid
+              (input port clocked by clk)
+  Endpoint: filter_spad_reg_0__0__9_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  filter_valid (in)                                     0.0000     1.4500 r
+  U2909/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2906/Z (CKBD1BWP16P90LVT)                            0.0105     1.4757 r
+  U2890/Z (CKBD1BWP16P90LVT)                            0.0092     1.4849 r
+  U2881/Z (CKBD1BWP16P90LVT)                            0.0099     1.4947 r
+  U2893/ZN (CKND2D1BWP20P90)                            0.0155     1.5103 f
+  U3034/ZN (NR2D1BWP16P90LVT)                           0.0247     1.5350 r
+  U2961/ZN (ND2D1BWP20P90LVT)                           0.2024     1.7374 f
+  U2454/ZN (IOA22D1BWP20P90)                            0.0472     1.7846 r
+  U2453/Z (DEL050D1BWP20P90)                            0.0955     1.8801 r
+  filter_spad_reg_0__0__9_/D (DFCNQD2BWP16P90LVT)       0.0000     1.8801 r
+  data arrival time                                                1.8801
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  filter_spad_reg_0__0__9_/CP (DFCNQD2BWP16P90LVT)      0.0000     2.1500 r
+  library setup time                                   -0.0121     2.1379
+  data required time                                               2.1379
+  --------------------------------------------------------------------------
+  data required time                                               2.1379
+  data arrival time                                               -1.8801
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2578
+
+
+  Startpoint: filter_valid
+              (input port clocked by clk)
+  Endpoint: filter_spad_reg_0__0__8_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  filter_valid (in)                                     0.0000     1.4500 r
+  U2909/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2906/Z (CKBD1BWP16P90LVT)                            0.0105     1.4757 r
+  U2890/Z (CKBD1BWP16P90LVT)                            0.0092     1.4849 r
+  U2881/Z (CKBD1BWP16P90LVT)                            0.0099     1.4947 r
+  U2893/ZN (CKND2D1BWP20P90)                            0.0155     1.5103 f
+  U3034/ZN (NR2D1BWP16P90LVT)                           0.0247     1.5350 r
+  U2961/ZN (ND2D1BWP20P90LVT)                           0.2024     1.7374 f
+  U2450/ZN (IOA22D1BWP20P90)                            0.0472     1.7846 r
+  U2449/Z (DEL050D1BWP20P90)                            0.0955     1.8801 r
+  filter_spad_reg_0__0__8_/D (DFCNQD2BWP16P90LVT)       0.0000     1.8801 r
+  data arrival time                                                1.8801
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  filter_spad_reg_0__0__8_/CP (DFCNQD2BWP16P90LVT)      0.0000     2.1500 r
+  library setup time                                   -0.0121     2.1379
+  data required time                                               2.1379
+  --------------------------------------------------------------------------
+  data required time                                               2.1379
+  data arrival time                                               -1.8801
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2578
+
+
+  Startpoint: filter_valid
+              (input port clocked by clk)
+  Endpoint: filter_spad_reg_0__0__7_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  filter_valid (in)                                     0.0000     1.4500 r
+  U2909/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2906/Z (CKBD1BWP16P90LVT)                            0.0105     1.4757 r
+  U2890/Z (CKBD1BWP16P90LVT)                            0.0092     1.4849 r
+  U2881/Z (CKBD1BWP16P90LVT)                            0.0099     1.4947 r
+  U2893/ZN (CKND2D1BWP20P90)                            0.0155     1.5103 f
+  U3034/ZN (NR2D1BWP16P90LVT)                           0.0247     1.5350 r
+  U2961/ZN (ND2D1BWP20P90LVT)                           0.2024     1.7374 f
+  U2446/ZN (IOA22D1BWP20P90)                            0.0472     1.7846 r
+  U2445/Z (DEL050D1BWP20P90)                            0.0955     1.8801 r
+  filter_spad_reg_0__0__7_/D (DFCNQD2BWP16P90LVT)       0.0000     1.8801 r
+  data arrival time                                                1.8801
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  filter_spad_reg_0__0__7_/CP (DFCNQD2BWP16P90LVT)      0.0000     2.1500 r
+  library setup time                                   -0.0121     2.1379
+  data required time                                               2.1379
+  --------------------------------------------------------------------------
+  data required time                                               2.1379
+  data arrival time                                               -1.8801
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2578
+
+
+  Startpoint: filter_valid
+              (input port clocked by clk)
+  Endpoint: filter_spad_reg_0__0__6_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  filter_valid (in)                                     0.0000     1.4500 r
+  U2909/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2906/Z (CKBD1BWP16P90LVT)                            0.0105     1.4757 r
+  U2890/Z (CKBD1BWP16P90LVT)                            0.0092     1.4849 r
+  U2881/Z (CKBD1BWP16P90LVT)                            0.0099     1.4947 r
+  U2893/ZN (CKND2D1BWP20P90)                            0.0155     1.5103 f
+  U3034/ZN (NR2D1BWP16P90LVT)                           0.0247     1.5350 r
+  U2961/ZN (ND2D1BWP20P90LVT)                           0.2024     1.7374 f
+  U2442/ZN (IOA22D1BWP20P90)                            0.0472     1.7846 r
+  U2441/Z (DEL050D1BWP20P90)                            0.0955     1.8801 r
+  filter_spad_reg_0__0__6_/D (DFCNQD2BWP16P90LVT)       0.0000     1.8801 r
+  data arrival time                                                1.8801
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  filter_spad_reg_0__0__6_/CP (DFCNQD2BWP16P90LVT)      0.0000     2.1500 r
+  library setup time                                   -0.0121     2.1379
+  data required time                                               2.1379
+  --------------------------------------------------------------------------
+  data required time                                               2.1379
+  data arrival time                                               -1.8801
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2578
+
+
+  Startpoint: filter_valid
+              (input port clocked by clk)
+  Endpoint: filter_spad_reg_0__0__5_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  filter_valid (in)                                     0.0000     1.4500 r
+  U2909/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2906/Z (CKBD1BWP16P90LVT)                            0.0105     1.4757 r
+  U2890/Z (CKBD1BWP16P90LVT)                            0.0092     1.4849 r
+  U2881/Z (CKBD1BWP16P90LVT)                            0.0099     1.4947 r
+  U2893/ZN (CKND2D1BWP20P90)                            0.0155     1.5103 f
+  U3034/ZN (NR2D1BWP16P90LVT)                           0.0247     1.5350 r
+  U2961/ZN (ND2D1BWP20P90LVT)                           0.2024     1.7374 f
+  U2438/ZN (IOA22D1BWP20P90)                            0.0472     1.7846 r
+  U2437/Z (DEL050D1BWP20P90)                            0.0955     1.8801 r
+  filter_spad_reg_0__0__5_/D (DFCNQD2BWP16P90LVT)       0.0000     1.8801 r
+  data arrival time                                                1.8801
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  filter_spad_reg_0__0__5_/CP (DFCNQD2BWP16P90LVT)      0.0000     2.1500 r
+  library setup time                                   -0.0121     2.1379
+  data required time                                               2.1379
+  --------------------------------------------------------------------------
+  data required time                                               2.1379
+  data arrival time                                               -1.8801
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2578
+
+
+  Startpoint: filter_valid
+              (input port clocked by clk)
+  Endpoint: filter_spad_reg_0__0__4_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  filter_valid (in)                                     0.0000     1.4500 r
+  U2909/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2906/Z (CKBD1BWP16P90LVT)                            0.0105     1.4757 r
+  U2890/Z (CKBD1BWP16P90LVT)                            0.0092     1.4849 r
+  U2881/Z (CKBD1BWP16P90LVT)                            0.0099     1.4947 r
+  U2893/ZN (CKND2D1BWP20P90)                            0.0155     1.5103 f
+  U3034/ZN (NR2D1BWP16P90LVT)                           0.0247     1.5350 r
+  U2961/ZN (ND2D1BWP20P90LVT)                           0.2024     1.7374 f
+  U2434/ZN (IOA22D1BWP20P90)                            0.0472     1.7846 r
+  U2433/Z (DEL050D1BWP20P90)                            0.0955     1.8801 r
+  filter_spad_reg_0__0__4_/D (DFCNQD2BWP16P90LVT)       0.0000     1.8801 r
+  data arrival time                                                1.8801
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  filter_spad_reg_0__0__4_/CP (DFCNQD2BWP16P90LVT)      0.0000     2.1500 r
+  library setup time                                   -0.0121     2.1379
+  data required time                                               2.1379
+  --------------------------------------------------------------------------
+  data required time                                               2.1379
+  data arrival time                                               -1.8801
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2578
+
+
+  Startpoint: filter_valid
+              (input port clocked by clk)
+  Endpoint: filter_spad_reg_0__0__3_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  filter_valid (in)                                     0.0000     1.4500 r
+  U2909/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2906/Z (CKBD1BWP16P90LVT)                            0.0105     1.4757 r
+  U2890/Z (CKBD1BWP16P90LVT)                            0.0092     1.4849 r
+  U2881/Z (CKBD1BWP16P90LVT)                            0.0099     1.4947 r
+  U2893/ZN (CKND2D1BWP20P90)                            0.0155     1.5103 f
+  U3034/ZN (NR2D1BWP16P90LVT)                           0.0247     1.5350 r
+  U2961/ZN (ND2D1BWP20P90LVT)                           0.2024     1.7374 f
+  U2430/ZN (IOA22D1BWP20P90)                            0.0472     1.7846 r
+  U2429/Z (DEL050D1BWP20P90)                            0.0955     1.8801 r
+  filter_spad_reg_0__0__3_/D (DFCNQD2BWP16P90LVT)       0.0000     1.8801 r
+  data arrival time                                                1.8801
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  filter_spad_reg_0__0__3_/CP (DFCNQD2BWP16P90LVT)      0.0000     2.1500 r
+  library setup time                                   -0.0121     2.1379
+  data required time                                               2.1379
+  --------------------------------------------------------------------------
+  data required time                                               2.1379
+  data arrival time                                               -1.8801
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2578
+
+
+  Startpoint: filter_valid
+              (input port clocked by clk)
+  Endpoint: filter_spad_reg_0__0__2_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  filter_valid (in)                                     0.0000     1.4500 r
+  U2909/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2906/Z (CKBD1BWP16P90LVT)                            0.0105     1.4757 r
+  U2890/Z (CKBD1BWP16P90LVT)                            0.0092     1.4849 r
+  U2881/Z (CKBD1BWP16P90LVT)                            0.0099     1.4947 r
+  U2893/ZN (CKND2D1BWP20P90)                            0.0155     1.5103 f
+  U3034/ZN (NR2D1BWP16P90LVT)                           0.0247     1.5350 r
+  U2961/ZN (ND2D1BWP20P90LVT)                           0.2024     1.7374 f
+  U2426/ZN (IOA22D1BWP20P90)                            0.0472     1.7846 r
+  U2425/Z (DEL050D1BWP20P90)                            0.0955     1.8801 r
+  filter_spad_reg_0__0__2_/D (DFCNQD2BWP16P90LVT)       0.0000     1.8801 r
+  data arrival time                                                1.8801
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  filter_spad_reg_0__0__2_/CP (DFCNQD2BWP16P90LVT)      0.0000     2.1500 r
+  library setup time                                   -0.0121     2.1379
+  data required time                                               2.1379
+  --------------------------------------------------------------------------
+  data required time                                               2.1379
+  data arrival time                                               -1.8801
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2578
+
+
+  Startpoint: filter_valid
+              (input port clocked by clk)
+  Endpoint: filter_spad_reg_0__0__1_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  filter_valid (in)                                     0.0000     1.4500 r
+  U2909/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2906/Z (CKBD1BWP16P90LVT)                            0.0105     1.4757 r
+  U2890/Z (CKBD1BWP16P90LVT)                            0.0092     1.4849 r
+  U2881/Z (CKBD1BWP16P90LVT)                            0.0099     1.4947 r
+  U2893/ZN (CKND2D1BWP20P90)                            0.0155     1.5103 f
+  U3034/ZN (NR2D1BWP16P90LVT)                           0.0247     1.5350 r
+  U2961/ZN (ND2D1BWP20P90LVT)                           0.2024     1.7374 f
+  U2422/ZN (IOA22D1BWP20P90)                            0.0472     1.7846 r
+  U2421/Z (DEL050D1BWP20P90)                            0.0955     1.8801 r
+  filter_spad_reg_0__0__1_/D (DFCNQD2BWP16P90LVT)       0.0000     1.8801 r
+  data arrival time                                                1.8801
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  filter_spad_reg_0__0__1_/CP (DFCNQD2BWP16P90LVT)      0.0000     2.1500 r
+  library setup time                                   -0.0121     2.1379
+  data required time                                               2.1379
+  --------------------------------------------------------------------------
+  data required time                                               2.1379
+  data arrival time                                               -1.8801
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2578
+
+
+  Startpoint: filter_valid
+              (input port clocked by clk)
+  Endpoint: filter_spad_reg_0__0__0_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  filter_valid (in)                                     0.0000     1.4500 r
+  U2909/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2906/Z (CKBD1BWP16P90LVT)                            0.0105     1.4757 r
+  U2890/Z (CKBD1BWP16P90LVT)                            0.0092     1.4849 r
+  U2881/Z (CKBD1BWP16P90LVT)                            0.0099     1.4947 r
+  U2893/ZN (CKND2D1BWP20P90)                            0.0155     1.5103 f
+  U3034/ZN (NR2D1BWP16P90LVT)                           0.0247     1.5350 r
+  U2961/ZN (ND2D1BWP20P90LVT)                           0.2024     1.7374 f
+  U2418/ZN (IOA22D1BWP20P90)                            0.0472     1.7846 r
+  U2417/Z (DEL050D1BWP20P90)                            0.0955     1.8801 r
+  filter_spad_reg_0__0__0_/D (DFCNQD2BWP16P90LVT)       0.0000     1.8801 r
+  data arrival time                                                1.8801
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  filter_spad_reg_0__0__0_/CP (DFCNQD2BWP16P90LVT)      0.0000     2.1500 r
+  library setup time                                   -0.0121     2.1379
+  data required time                                               2.1379
+  --------------------------------------------------------------------------
+  data required time                                               2.1379
+  data arrival time                                               -1.8801
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2578
+
+
+  Startpoint: filter_valid
+              (input port clocked by clk)
+  Endpoint: filter_spad_reg_0__0__0_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.2500     0.2500
+  input external delay                                  1.2000     1.4500 r
+  filter_valid (in)                                     0.0000     1.4500 r
+  U2909/Z (CKBD1BWP16P90LVT)                            0.0152     1.4652 r
+  U2906/Z (CKBD1BWP16P90LVT)                            0.0105     1.4757 r
+  U2890/Z (CKBD1BWP16P90LVT)                            0.0092     1.4849 r
+  U2881/Z (CKBD1BWP16P90LVT)                            0.0099     1.4947 r
+  U2893/ZN (CKND2D1BWP20P90)                            0.0155     1.5103 f
+  U3034/ZN (NR2D1BWP16P90LVT)                           0.0247     1.5350 r
+  U2961/ZN (ND2D1BWP20P90LVT)                           0.2024     1.7374 f
+  U2418/ZN (IOA22D1BWP20P90)                            0.0472     1.7846 r
+  U2417/Z (DEL050D1BWP20P90)                            0.0955     1.8800 r
+  filter_spad_reg_0__0__0_/D (DFCNQD2BWP16P90LVT)       0.0000     1.8800 r
+  data arrival time                                                1.8800
+
+  clock clk (rise edge)                                 2.0000     2.0000
+  clock network delay (ideal)                           0.2500     2.2500
+  clock uncertainty                                    -0.1000     2.1500
+  filter_spad_reg_0__0__0_/CP (DFCNQD2BWP16P90LVT)      0.0000     2.1500 r
+  library setup time                                   -0.0121     2.1379
+  data required time                                               2.1379
+  --------------------------------------------------------------------------
+  data required time                                               2.1379
+  data arrival time                                               -1.8800
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.2578
+
+
+1

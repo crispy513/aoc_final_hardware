@@ -1,5 +1,5 @@
 `include "define.svh"
-module PE_origin (
+module PE_ori (
     input clk,
     input rst,
     input PE_en,

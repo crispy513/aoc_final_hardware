@@ -17,8 +17,8 @@ analyze -format sverilog $rtl_files
 #=====================================================================
 # SET top module
 #=====================================================================
-elaborate PE_origin
-current_design PE_origin
+elaborate PE_ori
+current_design PE_ori
 link
 
 #=====================================================================
@@ -65,3 +65,4 @@ report_power -analysis_effort low > ../syn/PE_ori_power_rpt.txt
 #=====================================================================
 write -hierarchy -format verilog -output ../syn/PE_ori_syn.v
 write_sdf -version 3.0 -context verilog ../syn/PE_ori_syn.sdf
+write_sdc ../syn/PE_ori_syn.sdc

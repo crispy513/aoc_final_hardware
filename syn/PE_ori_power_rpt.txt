@@ -6,9 +6,9 @@ Warning: Design has unannotated sequential cell outputs. (PWR-415)
 ****************************************
 Report : power
         -analysis_effort low
-Design : PE
+Design : PE_ori
 Version: W-2024.09-SP2
-Date   : Thu Jun 11 01:46:07 2026
+Date   : Thu Jun 11 03:02:30 2026
 ****************************************
 
 
@@ -22,10 +22,10 @@ Wire Load Model Mode: segmented
 
 Design        Wire Load Model            Library
 ------------------------------------------------
-PE                     ZeroWireload      N16ADFP_StdCellss0p72v125c
-PE_DW01_add_1          ZeroWireload      N16ADFP_StdCellss0p72v125c
-PE_DW_mult_tc_0        ZeroWireload      N16ADFP_StdCellss0p72v125c
-PE_DW01_add_6          ZeroWireload      N16ADFP_StdCellss0p72v125c
+PE_ori                 ZeroWireload      N16ADFP_StdCellss0p72v125c
+PE_ori_DW01_add_1      ZeroWireload      N16ADFP_StdCellss0p72v125c
+PE_ori_DW_mult_tc_0    ZeroWireload      N16ADFP_StdCellss0p72v125c
+PE_ori_DW01_add_6      ZeroWireload      N16ADFP_StdCellss0p72v125c
 
 
 Global Operating Voltage = 0.72 
@@ -42,12 +42,12 @@ Attributes
 i - Including register clock pin internal power
 
 
-  Cell Internal Power  = 935.2885 uW   (95%)
-  Net Switching Power  =  52.9700 uW    (5%)
+  Cell Internal Power  = 905.6245 uW   (95%)
+  Net Switching Power  =  51.7296 uW    (5%)
                          ---------
-Total Dynamic Power    = 988.2585 uW  (100%)
+Total Dynamic Power    = 957.3541 uW  (100%)
 
-Cell Leakage Power     = 717.9257 uW
+Cell Leakage Power     = 662.3860 uW
 
 
                  Internal         Switching           Leakage            Total
@@ -56,10 +56,10 @@ Power Group      Power            Power               Power              Power  
 io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
 memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
 black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
-clock_network      0.8487            0.0000            0.0000            0.8487  (  49.74%)  i
-register       1.8854e-02        2.4168e-03        1.8575e+05            0.2070  (  12.13%)
+clock_network      0.8265            0.0000            0.0000            0.8265  (  51.02%)  i
+register       1.8953e-02        2.4087e-03        1.8186e+05            0.2032  (  12.55%)
 sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
-combinational  6.7714e-02        5.0553e-02        5.3217e+05            0.6504  (  38.12%)
+combinational  6.0205e-02        4.9321e-02        4.8053e+05            0.5901  (  36.43%)
 --------------------------------------------------------------------------------------------------
-Total              0.9353 mW     5.2970e-02 mW     7.1793e+05 nW         1.7062 mW
+Total              0.9056 mW     5.1729e-02 mW     6.6239e+05 nW         1.6197 mW
 1

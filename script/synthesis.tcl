@@ -131,5 +131,5 @@ report_power -analysis_effort low > ../syn/${OUT_NAME}_power_rpt.txt
 #=====================================================================
 write -hierarchy -format verilog -output ../syn/${OUT_NAME}_syn.v
 write_sdf -version 3.0 -context verilog ../syn/${OUT_NAME}_syn.sdf
-
+write_sdc ../syn/${OUT_NAME}_syn.sdc
 puts "Synthesis done. Outputs are under ../syn with prefix: $OUT_NAME"
