@@ -65,3 +65,4 @@ report_power -analysis_effort low > ../syn/PE_LEE_power_rpt.txt
 #=====================================================================
 write -hierarchy -format verilog -output ../syn/PE_LEE_syn.v
 write_sdf -version 3.0 -context verilog ../syn/PE_LEE_syn.sdf
+write_sdc ../syn/PE_LEE_syn.sdc

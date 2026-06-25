@@ -1,11 +1,11 @@
 /////////////////////////////////////////////////////////////
 // Created by: Synopsys DC Expert(TM) in wire load mode
 // Version   : W-2024.09-SP2
-// Date      : Sun May 31 22:15:19 2026
+// Date      : Fri Jun 19 15:14:24 2026
 /////////////////////////////////////////////////////////////
 
 
-module PE_DW_mult_tc_0 ( a, b, product );
+module PE_LEE_DW_mult_tc_0 ( a, b, product );
   input [7:0] a;
   input [7:0] b;
   output [15:0] product;
@@ -185,7 +185,7 @@ module PE_DW_mult_tc_0 ( a, b, product );
 endmodule
 
 
-module PE_DW01_add_0_DW01_add_1 ( A, B, CI, SUM, CO );
+module PE_LEE_DW01_add_0_DW01_add_1 ( A, B, CI, SUM, CO );
   input [31:0] A;
   input [31:0] B;
   output [31:0] SUM;
@@ -240,10 +240,10 @@ module PE_DW01_add_0_DW01_add_1 ( A, B, CI, SUM, CO );
 endmodule
 
 
-module PE ( clk, rst, PE_en, i_config, ifmap, filter, ipsum, ifmap_valid, 
+module PE_LEE ( clk, rst, PE_en, i_config, ifmap, filter, ipsum, ifmap_valid, 
         filter_valid, ipsum_valid, opsum_ready, opsum, ifmap_ready, 
         filter_ready, ipsum_ready, opsum_valid );
-  input [10:0] i_config;
+  input [9:0] i_config;
   input [31:0] ifmap;
   input [31:0] filter;
   input [31:0] ipsum;
@@ -547,7 +547,7 @@ module PE ( clk, rst, PE_en, i_config, ifmap, filter, ipsum, ifmap_valid,
   wire   [383:0] filter_spad;
   wire   [127:0] psum_spad;
   wire   [31:0] add_out;
-  wire   [4:2] \add_291_S2/carry ;
+  wire   [4:2] \add_279_S2/carry ;
 
   DFCNQD2BWP16P90LVT q_max_reg_1_ ( .D(n2536), .CP(clk), .CDN(n2819), .Q(
         q_max[1]) );
@@ -1632,10 +1632,10 @@ module PE ( clk, rst, PE_en, i_config, ifmap, filter, ipsum, ifmap_valid,
         n2815), .Q(filter_spad[0]) );
   AN2D1BWP16P90LVT U215 ( .A1(n251), .A2(n243), .Z(n256) );
   AN2D1BWP16P90LVT U1116 ( .A1(ifmap_ready), .A2(n2905), .Z(n252) );
-  HA1D1BWP16P90LVT \add_291_S2/U1_1_2  ( .A(n2478), .B(\add_291_S2/carry [2]), 
-        .CO(\add_291_S2/carry [3]), .S(N226) );
-  HA1D1BWP16P90LVT \add_291_S2/U1_1_3  ( .A(n2476), .B(\add_291_S2/carry [3]), 
-        .CO(\add_291_S2/carry [4]), .S(N227) );
+  HA1D1BWP16P90LVT \add_279_S2/U1_1_2  ( .A(n2478), .B(\add_279_S2/carry [2]), 
+        .CO(\add_279_S2/carry [3]), .S(N226) );
+  HA1D1BWP16P90LVT \add_279_S2/U1_1_3  ( .A(n2476), .B(\add_279_S2/carry [3]), 
+        .CO(\add_279_S2/carry [4]), .S(N227) );
   DFCNQND1BWP16P90LVT ifmap_spad_reg_1__14_ ( .D(n1194), .CP(clk), .CDN(n2815), 
         .QN(n592) );
   DFCNQND1BWP16P90LVT ifmap_spad_reg_1__23_ ( .D(n1203), .CP(clk), .CDN(n2830), 
@@ -3931,7 +3931,7 @@ module PE ( clk, rst, PE_en, i_config, ifmap, filter, ipsum, ifmap_valid,
   DEL025D1BWP20P90 U2852 ( .I(cnt_f[3]), .Z(n2476) );
   AO22D4BWP20P90 U2853 ( .A1(n2476), .A2(n510), .B1(N227), .B2(n511), .Z(n1245) );
   CKBD1BWP16P90LVT U2854 ( .I(n1246), .Z(n2477) );
-  HA1D2BWP20P90 U2855 ( .A(n2480), .B(cnt_f[0]), .CO(\add_291_S2/carry [2]), 
+  HA1D2BWP20P90 U2855 ( .A(n2480), .B(cnt_f[0]), .CO(\add_279_S2/carry [2]), 
         .S(N225) );
   DEL025D1BWP20P90 U2856 ( .I(cnt_f[2]), .Z(n2478) );
   AO22D4BWP20P90 U2857 ( .A1(n2478), .A2(n510), .B1(N226), .B2(n511), .Z(n1246) );
@@ -5692,19 +5692,20 @@ module PE ( clk, rst, PE_en, i_config, ifmap, filter, ipsum, ifmap_valid,
         filter_spad[192]), .B2(n2811), .ZN(n2805) );
   ND2D1BWP16P90 U3981 ( .A1(n2806), .A2(n2805), .ZN(N376) );
   CKND1BWP16P90 U3982 ( .I(cnt_f[0]), .ZN(N224) );
-  XOR2D1BWP16P90 U3983 ( .A1(\add_291_S2/carry [4]), .A2(cnt_f[4]), .Z(N228)
+  XOR2D1BWP16P90 U3983 ( .A1(\add_279_S2/carry [4]), .A2(cnt_f[4]), .Z(N228)
          );
-  PE_DW_mult_tc_0 mult_334 ( .a(op_ifmap_isolated), .b(op_filter_isolated), 
+  PE_LEE_DW_mult_tc_0 mult_322 ( .a(op_ifmap_isolated), .b(op_filter_isolated), 
         .product({\mul_out[15] , \mul_out[14] , \mul_out[13] , \mul_out[12] , 
         \mul_out[11] , \mul_out[10] , \mul_out[9] , \mul_out[8] , \mul_out[7] , 
         \mul_out[6] , \mul_out[5] , \mul_out[4] , \mul_out[3] , \mul_out[2] , 
         \mul_out[1] , \mul_out[0] }) );
-  PE_DW01_add_0_DW01_add_1 add_337 ( .A(opsum), .B({n2813, n2813, n2813, n2813, 
+  PE_LEE_DW01_add_0_DW01_add_1 add_325 ( .A(opsum), .B({n2813, n2813, n2813, 
         n2813, n2813, n2813, n2813, n2813, n2813, n2813, n2813, n2813, n2813, 
-        n2813, n2813, n2813, \mul_out[14] , \mul_out[13] , \mul_out[12] , 
-        \mul_out[11] , \mul_out[10] , \mul_out[9] , \mul_out[8] , \mul_out[7] , 
-        \mul_out[6] , \mul_out[5] , \mul_out[4] , \mul_out[3] , \mul_out[2] , 
-        \mul_out[1] , \mul_out[0] }), .CI(n1257), .SUM(add_out) );
+        n2813, n2813, n2813, n2813, \mul_out[14] , \mul_out[13] , 
+        \mul_out[12] , \mul_out[11] , \mul_out[10] , \mul_out[9] , 
+        \mul_out[8] , \mul_out[7] , \mul_out[6] , \mul_out[5] , \mul_out[4] , 
+        \mul_out[3] , \mul_out[2] , \mul_out[1] , \mul_out[0] }), .CI(n1257), 
+        .SUM(add_out) );
   TIELBWP20P90LVT U1151 ( .ZN(n1257) );
 endmodule
 

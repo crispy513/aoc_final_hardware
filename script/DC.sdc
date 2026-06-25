@@ -3,7 +3,7 @@
 # Setting Clock freq & some parameter
 #=====================================================================
 
-set clk_period 2.0
+set clk_period 1.85
 set input_max   [expr {double(round(1000*$clk_period * 0.6))/1000}]
 set input_min   [expr {double(round(1000*$clk_period * 0.0))/1000}]
 set output_max  [expr {double(round(1000*$clk_period * 0.1))/1000}]

@@ -7,9 +7,9 @@ Report : timing
         -nworst 50
         -max_paths 50
         -sort_by group
-Design : PE
+Design : PE_LEE
 Version: W-2024.09-SP2
-Date   : Sun May 31 22:15:16 2026
+Date   : Fri Jun 19 15:14:20 2026
 ****************************************
 
 Operating Conditions: ff0p88vm40c   Library: N16ADFP_StdCellff0p88vm40c
@@ -24,7 +24,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                    Incr       Path
   -----------------------------------------------------------
@@ -65,7 +65,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -105,7 +105,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -145,7 +145,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -185,7 +185,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -225,7 +225,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -265,7 +265,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -305,7 +305,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -345,7 +345,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -385,7 +385,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -425,7 +425,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -465,7 +465,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -505,7 +505,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -545,7 +545,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -585,7 +585,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -625,7 +625,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -665,7 +665,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -705,7 +705,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -745,7 +745,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -785,7 +785,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -825,7 +825,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -865,7 +865,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -905,7 +905,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -945,7 +945,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -985,7 +985,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -1025,7 +1025,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -1065,7 +1065,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -1105,7 +1105,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -1145,7 +1145,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -1185,7 +1185,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -1225,7 +1225,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -1265,7 +1265,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -1305,7 +1305,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -1345,7 +1345,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -1385,7 +1385,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -1425,7 +1425,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -1465,7 +1465,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -1505,7 +1505,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -1545,7 +1545,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -1585,7 +1585,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -1625,7 +1625,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -1665,7 +1665,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -1705,7 +1705,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -1745,7 +1745,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -1785,7 +1785,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -1825,7 +1825,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -1865,7 +1865,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -1905,7 +1905,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -1945,7 +1945,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------
@@ -1985,7 +1985,7 @@ Wire Load Model Mode: segmented
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
-  PE                 ZeroWireload          N16ADFP_StdCellss0p72v125c
+  PE_LEE             ZeroWireload          N16ADFP_StdCellss0p72v125c
 
   Point                                                   Incr       Path
   --------------------------------------------------------------------------

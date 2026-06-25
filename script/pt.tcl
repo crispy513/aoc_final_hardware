@@ -20,7 +20,7 @@ set power_analysis_mode averaged
 # =========================
 # Read and Link Design
 # =========================
-set DESIGN_NAME PE_ori
+set DESIGN_NAME PE_LEE
 read_verilog syn/${DESIGN_NAME}_syn.v
 current_design ${DESIGN_NAME}
 link

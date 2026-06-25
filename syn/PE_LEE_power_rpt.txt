@@ -6,9 +6,9 @@ Warning: Design has unannotated sequential cell outputs. (PWR-415)
 ****************************************
 Report : power
         -analysis_effort low
-Design : PE
+Design : PE_LEE
 Version: W-2024.09-SP2
-Date   : Sun May 31 22:15:19 2026
+Date   : Fri Jun 19 15:14:24 2026
 ****************************************
 
 
@@ -22,9 +22,9 @@ Wire Load Model Mode: segmented
 
 Design        Wire Load Model            Library
 ------------------------------------------------
-PE                     ZeroWireload      N16ADFP_StdCellss0p72v125c
-PE_DW_mult_tc_0        ZeroWireload      N16ADFP_StdCellss0p72v125c
-PE_DW01_add_0_DW01_add_1
+PE_LEE                 ZeroWireload      N16ADFP_StdCellss0p72v125c
+PE_LEE_DW_mult_tc_0    ZeroWireload      N16ADFP_StdCellss0p72v125c
+PE_LEE_DW01_add_0_DW01_add_1
                        ZeroWireload      N16ADFP_StdCellss0p72v125c
 
 

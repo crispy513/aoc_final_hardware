@@ -255,10 +255,20 @@ synthesize_PE_ori:
 	$(MAKE) synthesize SYN_TOP=PE_ori SYN_SRC="src/PE_array/PE_origin.sv" SYN_OUT=PE_ori
 
 synthesize_PE_array:
-	$(MAKE) synthesize SYN_TOP=PE_array SYN_SRC="src/PE_array/PE.sv src/PE_array/PE_array.sv" SYN_OUT=PE_array
+	$(MAKE) synthesize \
+		SYN_TOP=PE_array \
+		SYN_SRC="src/PE_array/GIN/GIN_MulticastController.sv \
+src/PE_array/GIN/GIN_Bus.sv \
+src/PE_array/GIN/GIN.sv \
+src/PE_array/GON/GON_MulticastController.sv \
+src/PE_array/GON/GON_Bus_full_throughput_pipeline.sv \
+src/PE_array/GON/GON_full_throughput_pipeline.sv \
+src/PE_array/PE_LEE.sv \
+src/PE_array/PE_array.sv" \
+		SYN_OUT=PE_array
 
 synthesize_PE_LEE:
-	$(MAKE) synthesize SYN_TOP=PE SYN_SRC="src/PE_LEE.sv" SYN_OUT=PE_LEE
+	$(MAKE) synthesize SYN_TOP=PE_LEE SYN_SRC="src/PE_array/PE_LEE.sv" SYN_OUT=PE_LEE
 
 spyglass: $(bld_dir)
 	@cd $(bld_dir); \

@@ -1,16 +1,16 @@
  
 ****************************************
 Report : area
-Design : PE
+Design : PE_LEE
 Version: W-2024.09-SP2
-Date   : Sun May 31 22:15:16 2026
+Date   : Fri Jun 19 15:14:20 2026
 ****************************************
 
 Library(s) Used:
 
     N16ADFP_StdCellss0p72v125c (File: /usr/cad/process/ADFP/Executable_Package/Collaterals/IP/stdcell/N16ADFP_StdCell/NLDM/N16ADFP_StdCellss0p72v125c.db)
 
-Number of ports:                          280
+Number of ports:                          279
 Number of nets:                          3931
 Number of cells:                         3629
 Number of combinational cells:           2994

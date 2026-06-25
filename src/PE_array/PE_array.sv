@@ -310,7 +310,7 @@ end
 generate
     for (i = 0; i < NUMS_PE_ROW; i++) begin : PE_ROW
         for (j = 0; j < NUMS_PE_COL; j++) begin : PE_COL
-            PE PE (
+            PE_LEE PE (
                 .clk(clk),
                 .rst(rst),
                 .PE_en(PE_en[i*NUMS_PE_COL+j]),
