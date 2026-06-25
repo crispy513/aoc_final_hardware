@@ -1,15 +1,28 @@
 # 合成指令說明
 
-這份 README 說明如何使用目前的參數化 Synopsys Design Compiler 合成流程。
+這份 README 說明如何使用本專案的參數化 Synopsys Design Compiler 合成流程。
 
-目前合成流程主要使用同一份 Tcl script。執行時只需要透過 Makefile 指定 top module 名稱、RTL source file list，以及可選的輸出檔名前綴。
+本合成流程使用同一份 Tcl script。執行時透過 Makefile 指定 top module 名稱、RTL source file list，以及可選的輸出檔名前綴。
+
+---
+
+## 常用 Shortcut
+
+| 指令 | Top module | 主要 RTL | 輸出前綴 |
+|---|---|---|---|
+| `make synthesize_PE` | `PE` | `src/PE_array/PE.sv` | `PE` |
+| `make synthesize_PE_ori` | `PE_ori` | `src/PE_array/PE_origin.sv` | `PE_ori` |
+| `make synthesize_PE_LEE` | `PE_LEE` | `src/PE_array/PE_LEE.sv` | `PE_LEE` |
+| `make synthesize_PE_array` | `PE_array` | `src/PE_array/GIN/*`, `src/PE_array/GON/*`, `src/PE_array/PE_LEE.sv`, `src/PE_array/PE_array.sv` | `PE_array` |
+
+以上 target 都會呼叫同一套參數化合成流程。
 
 ---
 
 ## 環境與限制條件
 
 - 合成工具：Synopsys Design Compiler (`dc_shell`)，使用 CAD/CIC Synopsys 環境。
-- Timing/power 工具：Synopsys PrimeTime (`pt_shell`)，目前 log 觀察到的版本為 `W-2024.09-SP2`。
+- Timing/power 工具：Synopsys PrimeTime (`pt_shell`) `W-2024.09-SP2`。
 - Constraint file：`script/DC.sdc`。
 - Clock constraint：`clk_period = 2 ns`，duty cycle 50%。
 - DC setup file：`script/synopsys_dc.setup`。
@@ -40,9 +53,9 @@ make synthesize SYN_TOP=<top_module> SYN_SRC="<rtl_files>" SYN_OUT=<output_prefi
 
 Makefile 會在 `build/` 目錄中執行 Design Compiler。
 
-建議傳入相對於 project root 的 RTL 路徑，例如 `src/...`。Tcl script 會在 `build/` 內自動解析這些路徑。
+RTL 路徑以 project root 為基準傳入，例如 `src/...`。Tcl script 會在 `build/` 內自動解析這些路徑。
 
-建議寫法：
+標準寫法：
 
 ```bash
 make synthesize SYN_TOP=PE SYN_SRC=src/PE_array/PE.sv
@@ -141,7 +154,7 @@ syn/PE_LEE_syn.sdc
 
 ### 合成 `PE_array`
 
-建議使用 shortcut target，Makefile 會自動帶入所需的 GIN/GON/PE source file list：
+使用 shortcut target 時，Makefile 會自動帶入所需的 GIN/GON/PE source file list：
 
 ```bash
 make synthesize_PE_array
@@ -205,24 +218,9 @@ syn/${SYN_OUT}_syn.sdc
 
 ---
 
-## Shortcut Targets
-
-Makefile 目前提供以下常用 target：
-
-```bash
-make synthesize_PE
-make synthesize_PE_ori
-make synthesize_PE_LEE
-make synthesize_PE_array
-```
-
-這些 target 都會呼叫同一套參數化合成流程。
-
----
-
 ## 注意事項
 
-- `build/` 是工具產生的工作目錄，不建議 commit。
-- `syn/` 內是合成產生的 report、netlist、SDF 與 SDC。只保留需要繳交或比較的結果即可。
+- `build/` 是工具產生的工作目錄，不納入版本控制。
+- `syn/` 內是合成產生的 report、netlist、SDF 與 SDC；版本控制中僅保留需要繳交或比較的結果。
 - Design Compiler 執行時如果印出 Tcl commands，屬於正常現象。
 - 如果合成失敗，請優先檢查實際 error message，常見原因包含 source path 錯誤或 Makefile 變數未設定。
