@@ -4,6 +4,9 @@
 1. cd bitmap_dla_end_roofline_profiler
 2. make DEMO (會先跑沒有bitmap版本，再跑有bitmap版本)
 
+# Environment
+
+- aoc_2026_env docker environment
 # Eyeriss DLA Experiments
 
 這個 repository 目前主要包含兩組 DLA 實驗流程：
@@ -13,9 +16,7 @@
 
 所有指令以下都假設從對應資料夾內執行。
 
-## Environment
 
-- aoc_2026_env docker environment
 
 ## tvm_dla_end_to_end_test
 
