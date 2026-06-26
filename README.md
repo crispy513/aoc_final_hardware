@@ -1,4 +1,7 @@
 - 在github上有兩個branch，一個是main(模擬測試)，一個是pe_syn(合成的資料)
+- 重現DEMO方式:
+- cd bitmap_dla_end_roofline_profiler
+- make DEMO (會先跑沒有bitmap版本，再跑有bitmap版本)
 # Eyeriss DLA Experiments
 
 這個 repository 目前主要包含兩組 DLA 實驗流程：
